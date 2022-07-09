@@ -1,10 +1,7 @@
-
-Saved/
-
-Binaries/
-
-.vs/
-
+.vs
+*.sln
+DerivedDataCache/
 Intermediate/
-
-ShootThemUp.sln
+Saved/
+Binaries/
+Build/
