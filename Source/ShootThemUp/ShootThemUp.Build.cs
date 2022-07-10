@@ -12,6 +12,9 @@ public class ShootThemUp : ModuleRules
 
 		PrivateDependencyModuleNames.AddRange(new string[] {  });
 
+		// M2L24 1: добавляем настройку билда, чтобы проект собирался без указания полного пути хедеров
+		PublicIncludePaths.AddRange(new string[] { "ShootThemUp/Public/Player" });
+
 		// Uncomment if you are using Slate UI
 		// PrivateDependencyModuleNames.AddRange(new string[] { "Slate", "SlateCore" });
 		
